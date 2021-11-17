@@ -1,4 +1,4 @@
-# fedora-desktop-config
+# Lajto's Fedora desktop config
 My personal configuration for Fedora in desktop.
 
 # Configuration
