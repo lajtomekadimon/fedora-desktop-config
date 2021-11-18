@@ -60,3 +60,9 @@ configure:
 	sudo dnf install -y java-latest-openjdk java-latest-openjdk-devel
 	# Android tools
 	sudo dnf install -y android-tools
+	# Tutanota
+	wget https://mail.tutanota.com/desktop/tutanota-desktop-linux.AppImage
+	mkdir -p /home/$(USERNAME)/.tutanota-dir/
+	mv tutanota-desktop-linux.AppImage /home/$(USERNAME)/.tutanota-dir/
+	chmod a+x /home/$(USERNAME)/.tutanota-dir/tutanota-desktop-linux.AppImage
+	/home/$(USERNAME)/.tutanota-dir/tutanota-desktop-linux.AppImage

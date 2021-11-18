@@ -77,6 +77,7 @@ Configure the rest of the software:
 - Rhythmbox
 - Transmission
 - Telegram Desktop
+- Tutanota
 
 Optimizing graphics in Wine:
 
