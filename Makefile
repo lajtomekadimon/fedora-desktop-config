@@ -10,6 +10,7 @@ configure:
 	sudo dnf groupinstall -y "Development Libraries"
 	sudo dnf install -y unrar p7zip p7zip-plugins zip unzip xz
 	# Codecs
+	sudo dnf install -y webp-pixbuf-loader  # .webp files
 	sudo dnf install -y gstreamer1-libav \
 	gstreamer1-plugins-bad-free-extras gstreamer1-plugins-bad-freeworld \
 	gstreamer1-plugins-good-extras gstreamer1-plugins-ugly gstreamer-ffmpeg \
