@@ -52,6 +52,14 @@ Configure Telegram and install manually:
 - Chrome
 - GeoGebra
 
+Install Discord using flatpak:
+
+```sh
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
+flatpak install flathub com.discordapp.Discord
+```
+
 Reboot. Then, configure Firefox properly (don't forget to activate OpenH264
 video codec) and change this in `about:config`:
 
