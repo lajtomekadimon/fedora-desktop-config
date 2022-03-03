@@ -73,6 +73,15 @@ winecfg
 
 winetricks corefonts fontfix vcrun2005sp1 vcrun2008 vcrun6 \
 vcrun2017 dxvk d3dx9 physx
+
+winetricks gdiplus riched20 riched30 wenquanyi
+```
+
+Import [chn_fonts.reg](https://gist.githubusercontent.com/swordfeng/c3fd6b6fcf6dc7d7fa8a/raw/0ad845f98f5a97e7173ff40b5e57b3a163e92465/chn_fonts.reg)
+after running:
+
+```sh
+winetricks regedit
 ```
 
 Configure the rest of the software:
